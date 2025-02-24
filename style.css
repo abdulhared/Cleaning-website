@@ -9,6 +9,8 @@ body{
     max-width: 100%;
 }
 
+
+
 .navbar .icon{
     font-size: 40px;
     position: relative;
@@ -43,7 +45,8 @@ a{
 .container{
     margin-top: 20px; 
     padding: 30px;
-    position: relative;     
+    position: relative; 
+    left: 30px;   
 }
 
 .heading{
@@ -57,7 +60,7 @@ a{
 .heading h1{
     font-size: 60px;
     font-weight: 400;
-    font-family: "Lobster", serif;
+    font-family: "Markazi Text", serif;
     font-style: normal;
     position: relative;
     left: 90px;
@@ -188,21 +191,28 @@ a{
     margin: 15px 0px;
 }
 
-.read-more{
+.get_started{
     display: inline-block;
-    color: #fff;
-    background-color: #0084ff;
     border: none;
-    border-radius: 5px;
+    background-color: #0084ff;
+    border-radius: 100px;
     padding: 12px 20px;
     font-size: 18px;
     cursor: pointer;
     transition: 0.2s ease;
+    position: relative;
+    top: 10px;
+    left: 80px;
 }
 
-.read-more:hover{
-    background: #333;
+.get_started a{
+    color: #000;
 }
+
+.get_started a:hover{
+    color: #fff;
+}
+
 
 @media(max-width: 768px){
     .about-us{
@@ -220,8 +230,10 @@ a{
 }
 
 footer{
-     background-color: #F8F8F7;
+     background-color: #c2c2bf;
      padding-top: 50px;
+     position: relative;
+     top: 50px;
 }
 
 
@@ -292,6 +304,8 @@ a:hover{
     font-size: 16px;
     padding: 7px;
 }
+
+
 
 
 

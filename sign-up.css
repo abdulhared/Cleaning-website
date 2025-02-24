@@ -115,6 +115,13 @@ section a{
     cursor: pointer;
 }
 
+.input-submit a:hover{
+    background-color: #000;
+    text-decoration: none;
+    color: #dfdfdf;
+}
+
+
 
 .submit-btn:hover{
     background: #000;
@@ -130,5 +137,6 @@ section a{
 .sign-up-link a{
     color: #000;
     font-weight: 600;
+    border: none;
 }
 
